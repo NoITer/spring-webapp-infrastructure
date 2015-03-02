@@ -5,11 +5,30 @@
 <html>
 <head>
     <title>React</title>
-    <script src="http://fb.me/react-0.12.2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.12.2/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.12.2/JSXTransformer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="<c:url value="/resources/js/employee.js" />"></script>
 </head>
 
 <body>
-    <h2>All Employees In System</h2>
+    <h2>All Employees</h2>
+    <div id="content"></div>
+    <script type="text/jsx">
+        var CommentBox = React.createClass({displayName: 'CommentBox',
+            render: function() {
+                return (
+                        React.createElement('div', {className: "commentBox"},
+                                "Hello, world! I am a CommentBox."
+                        )
+                );
+            }
+        });
+        React.render(
+                React.createElement(CommentBox, null),
+                document.getElementById('content')
+        );
+    </script>
 
     <table border="1">
         <tr>
