@@ -1,10 +1,7 @@
-package com.tw.leewin.springmvc.model;
+package com.tw.infrastructure.model;
 
 import java.io.Serializable;
 
-/**
- * Created by lwzhang on 3/1/15.
- */
 public class EmployeeVO implements Serializable
 {
     private static final long serialVersionUID = 1L;

@@ -1,7 +1,7 @@
-package com.tw.leewin.springmvc.service;
+package com.tw.infrastructure.service;
 
-import com.tw.leewin.springmvc.dao.EmployeeDAO;
-import com.tw.leewin.springmvc.model.EmployeeVO;
+import com.tw.infrastructure.dao.EmployeeDAO;
+import com.tw.infrastructure.model.EmployeeVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

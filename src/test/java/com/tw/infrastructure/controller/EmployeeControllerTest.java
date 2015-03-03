@@ -1,4 +1,4 @@
-package com.tw.leewin.springmvc.controller;
+package com.tw.infrastructure.controller;
 
 import static org.junit.Assert.*;
 

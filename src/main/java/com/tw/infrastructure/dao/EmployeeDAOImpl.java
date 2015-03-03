@@ -1,10 +1,9 @@
-package com.tw.leewin.springmvc.dao;
+package com.tw.infrastructure.dao;
 
 import com.google.common.collect.Lists;
-import com.tw.leewin.springmvc.model.EmployeeVO;
+import com.tw.infrastructure.model.EmployeeVO;
 import org.springframework.stereotype.Repository;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**

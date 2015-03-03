@@ -1,6 +1,6 @@
-package com.tw.leewin.springmvc.dao;
+package com.tw.infrastructure.dao;
 
-import com.tw.leewin.springmvc.model.EmployeeVO;
+import com.tw.infrastructure.model.EmployeeVO;
 
 import java.util.List;
 
